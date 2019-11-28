@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Challenge2</string>
+    <string-array name="item_name">
+        <item>meat</item>
+        <item>rice</item>
+        <item>wine</item>
+        <item>cereal</item>
+        <item>shield</item>
+        <item>halberd</item>
+        <item>sword</item>
+        <item>blad</item>
+        <item>socrates</item>
+        <item>troy_horse</item>
+    </string-array>
+
+    <string-array name="sort_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+
+    <string-array name="sort_name">
+        <item>武器</item>
+        <item>糧食</item>
+        <item>特殊解鎖</item>
+
+    </string-array>
+
+    <string-array name="price">
+        <item>200</item>
+        <item>50</item>
+        <item>100</item>
+        <item>400</item>
+        <item>300</item>
+        <item>500</item>
+
+    </string-array>
+
+    <string-array name="stock">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+
+    </string-array>
+</resources>

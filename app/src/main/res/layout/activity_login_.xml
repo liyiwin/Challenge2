@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#31FFEB3B"
+    tools:context=".Login_Activity">
+
+    <Button
+        android:id="@+id/btn_sell"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="124dp"
+        android:background="@android:color/background_light"
+        android:text="賣家登入"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_buy"
+        android:layout_width="131dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="124dp"
+        android:background="@android:color/background_light"
+        android:text="買家登入"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sell" />
+
+    <TextView
+        android:id="@+id/please_enter"
+        android:layout_width="129dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="120dp"
+        android:background="@drawable/btn"
+        android:text="旅客中心"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_buy" />
+
+    <Button
+        android:id="@+id/manage"
+        android:layout_width="129dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="124dp"
+        android:background="@drawable/btn"
+        android:text="貿易商城"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/please_enter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
